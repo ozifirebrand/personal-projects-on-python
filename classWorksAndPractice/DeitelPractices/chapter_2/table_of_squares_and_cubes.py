@@ -6,7 +6,7 @@ print('3  \t\t', 3 ** 2, '\t\t\t', 3 ** 3)
 print('4  \t\t', 4 ** 2, '\t\t', 4 ** 3)
 print('5  \t\t', 5 ** 2, '\t\t', 5 ** 3)
 
-# Using for loops
+# Using while loop to automatically iterate through the numbers
 # Each of the values are incremented by 1
 # The square and cubes of the values are computed
 print()
