@@ -14,11 +14,14 @@ print()
 
 number = 0
 print('number \t square \t cube')
-while number <= 3:
-    print(number, '\t\t', number ** 2, '\t\t\t', number ** 3)
+while number <= 5:
+    if number < 4:
+        print(number, '\t\t', number ** 2, '\t\t\t', number ** 3)
+    elif number >= 4:
+        print(number, '\t\t', number ** 2, '\t\t', number ** 3)
     number += 1
 
-number = 4
-while number <= 5:
-    print(number, '\t\t', number ** 2, '\t\t', number ** 3)
-    number += 1
+# number = 4
+# while number <= 5:
+#     print(number, '\t\t', number ** 2, '\t\t', number ** 3)
+#     number += 1
