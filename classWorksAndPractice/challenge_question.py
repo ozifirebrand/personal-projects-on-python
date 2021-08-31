@@ -5,8 +5,8 @@ def set_values():
     quantity_of_item_purchased = int(input())
 
 
-def get_value():
+def get_part_number():
     print(set_values())
 
 
-get_value()
+#get_value()
