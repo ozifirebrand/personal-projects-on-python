@@ -19,7 +19,7 @@ for number in numbers:
 
     new_first_sum = first_sum + first_division
 
-    print('Current factorial : %5.2f' % new_factorial )
+    print('Current factorial : %5.2f' % new_factorial)
     print('Current sum : %3.4f' % new_first_sum)
     first_sum = new_first_sum
     factorial = new_factorial
