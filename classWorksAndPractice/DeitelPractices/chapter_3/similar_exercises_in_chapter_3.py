@@ -14,7 +14,11 @@ var = 99 >= m > k
 print(var)
 var = j >= i or k == m
 print(var)
-var = (k+m < j) or (3-j>=k)
+var = (k + m < j) or (3 - j >= k)
 print(var)
-var = not (k>m)
+var = not (k > m)
 print(var)
+
+# SUM AND AVERAGE OF GRADES
+grades_of_students = [85, 93, 45, 89, 85]
+print(sum(grades_of_students)/len(grades_of_students))
