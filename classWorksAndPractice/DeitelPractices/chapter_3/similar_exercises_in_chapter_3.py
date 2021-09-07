@@ -3,6 +3,7 @@
 # total, then print the result with two digits to the right of the
 # decimal point.
 from decimal import Decimal
+from statistics import *
 
 print(f"{Decimal('37.45') * Decimal('1.0625'):.2f}")
 
@@ -22,3 +23,6 @@ print(var)
 # SUM AND AVERAGE OF GRADES
 grades_of_students = [85, 93, 45, 89, 85]
 print(sum(grades_of_students)/len(grades_of_students))
+print(mean(grades_of_students))
+print(mode(grades_of_students))
+print(median(grades_of_students))
