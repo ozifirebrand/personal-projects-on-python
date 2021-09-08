@@ -11,9 +11,7 @@ face = 0
 for roll in range(6_000_000):
     face = random.randrange(1, 7)
 
-    if face == 0:
-        print("nothing")
-    elif face == 1:
+    if face == 1:
         frequency1 += 1
     elif face == 2:
         frequency2 += 2
@@ -25,6 +23,7 @@ for roll in range(6_000_000):
         frequency5 += 1
     elif face == 6:
         frequency6 += 1
+
 print('1 : %4d' % frequency1)
 print('2 : %4d' % frequency2)
 print('3 : %4d' % frequency3)
