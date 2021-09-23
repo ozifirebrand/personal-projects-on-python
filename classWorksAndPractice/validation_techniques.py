@@ -1,6 +1,4 @@
 import re
-
-
 # class Citizen:
 #     def __init__(self, name, id, email, age):
 #         self.id = id
