@@ -1,3 +1,5 @@
+# uncompleted
+
 todo_list = []
 def __str__():
     return todo_list[0],todo_list[1], todo_list[2]
