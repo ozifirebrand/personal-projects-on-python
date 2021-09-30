@@ -1,4 +1,6 @@
 import re
+
+
 # class Citizen:
 #     def __init__(self, name, id, email, age):
 #         self.id = id
@@ -43,6 +45,7 @@ class Citizen1:
             if len(value) > 20:
                 raise ValueError("Name cannot exceed 20 characters.")
             self._name = value
+            return self._name
 
         @property
         def email(self):
@@ -50,25 +53,25 @@ class Citizen1:
 
         @email.setter
         def email(self, value):
-            regex = "^[a-z0-9]+[\._]?[a-z0-9]+[@]\w+[.]\w{2,3}$"
-            if not re.match(regex, value):
+            rege = "^[a-z0-9]" + "[\._]?[a-z0-9]" + "[@]\w+[.]\w{2,3}$"
+            if not re.match(rege, value):
                 raise ValueError("It is not an email address.")
             self._email = value
+            return self._email
 
-            @property
-            def age(self):
-                return self._age
+        @property
+        def age(self):
+            return self._age
 
-            @age.setter
-            def age(self, value):
-                if value < 0:
-                    raise ValueError("Age cannot be negative.")
-                self._age = value
+        @age.setter
+        def age(self, value):
+            if value < 0:
+                raise ValueError("Age cannot be negative.")
+            self._age = value
+            return self._age
 
 
-# xiaocu = Citizen1("Ozi", "1", "oziomaokoroafor@gmail.com", 12)
 xiaocu = Citizen1("OzauW839kjgfduykjyftkhlftydkulkuhr287EJKQ8842792adjhai", "2", "oziomaokoroafor@gmail.com", 45)
-# xiaocu = Citizen("id1", "xiaoxu gao", "xiaoxugao@gmail.c", 27)
 
 print(xiaocu.email)
 print(xiaocu.name)
