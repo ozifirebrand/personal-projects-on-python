@@ -8,8 +8,8 @@ data.append(fruits)
 data.append(number_of_fruit_at_first)
 data.append(number_of_fruit_at_second)
 
-for index in data:
-    for index_2 in index:
+for row in data:
+    for index_2 in row:
         print(index_2, end=" ")
     print()
 
@@ -46,6 +46,19 @@ result = [[0, 0, 0, ], [0, 0, 0], [0, 0, 0]]
 for row in range(len(x_matrix)):
     for column in range(len(x_matrix[0])):
         result[row][column] = x_matrix[row][column] + y_matrix[row][column]
+
+
+print(result)
+
+
+native_1 = [[4, 22, 10], [5, 20, 11]]
+native_2 = [[6, 24, 15], [34, 51, 66]]
+
+cohort_members = [native_1, native_2]
+result = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+for row in range(len(native_1)):
+    for column in range(len(native_1[0])):
+        result[row][column] = native_1[row][column] + native_2[row][column]
 
 
 print(result)
