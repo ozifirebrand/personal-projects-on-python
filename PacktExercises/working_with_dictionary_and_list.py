@@ -60,14 +60,31 @@ for employee_ in employees:
     print("Age :", employee_['age'])
     print("Department :", employee_['department'])
 
-items = ['cocoyam', 'garden egg', 'banana']
-quantity = [5, 3, 7]
 
-orders = zip(items, quantity)
-print(dict(orders))
+items = ['omo','bottle water', 'ginger', 'dangote sugar']
+quantity = [1, 12, 15, 2]
 
 orders = zip(items, quantity)
 print(list(orders))
 
-orders= zip(items, quantity)
+orders = zip(items, quantity)
+print(dict(orders))
+print()
+
+orders = zip(items, quantity)
 print(tuple(orders))
+print()
+
+orders = {'crayfish' : 5, 'ede': 3, 'azu ikpo' : 6}
+print(orders.values())
+print()
+
+print(list(orders.values()))
+print()
+
+print(list(orders.keys()))
+print()
+
+
+for tuple_ in list(orders.items()):
+    print(tuple_)
