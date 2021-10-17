@@ -9,3 +9,15 @@ for value in country_codes.keys():
 shopping = ['Apple', 'Eggs', 'Yam', 'Boli', 'Tuwo']
 
 print(shopping)
+
+shopping.insert(3, 'Coconut')
+shopping.pop(2)
+print(shopping)
+
+employee = {
+    "name" : "Bolanle Shola",
+    "age" : 33,
+    "department" : "Electrical and Electronics Engineering"
+}
+
+print(employee)
