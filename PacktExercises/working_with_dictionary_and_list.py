@@ -59,3 +59,15 @@ for employee_ in employees:
     print("Name :", employee_['name'])
     print("Age :", employee_['age'])
     print("Department :", employee_['department'])
+
+items = ['cocoyam', 'garden egg', 'banana']
+quantity = [5, 3, 7]
+
+orders = zip(items, quantity)
+print(dict(orders))
+
+orders = zip(items, quantity)
+print(list(orders))
+
+orders= zip(items, quantity)
+print(tuple(orders))
