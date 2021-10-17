@@ -97,3 +97,31 @@ print()
 
 t_shopping_list = ('wig', 'hair clip', 'hair band'), ('lace glue', 'ilarun', 'expression attachment')
 print(t_shopping_list)
+
+set_1 = {1, 2, 3, 4}
+set_2 ={1, 2, 4, 3, 4, 5, 6, 5, 2}
+set_3 = {8, 6,3,1 ,5,2,5,6,8}
+print()
+print(set_1)
+print(set_2)
+print(set_3)
+
+set_4 = {'boli', 'suya', 'epa'}
+print()
+print(set_4)
+print()
+set_4.add('fura')
+print(set_4)
+
+print()
+print(set_1 | set_2)
+print(set_1.union(set_2))
+print()
+print(set_1 & set_2)
+print(set_1.intersection(set_2))
+print()
+print(set_1 <= set_3)
+print(set_1.issubset(set_3))
+print()
+print(set_1 <= set_2)
+print(set_1.issubset(set_2))
