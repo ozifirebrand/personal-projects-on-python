@@ -88,3 +88,12 @@ print()
 
 for tuple_ in list(orders.items()):
     print(tuple_)
+
+t_mixed = 'jangi-lova', 'baflit', 'bendankari'
+print(t_mixed)
+print()
+print(t_mixed + ('ten-ten','suwe') )
+print()
+
+t_shopping_list = ('wig', 'hair clip', 'hair band'), ('lace glue', 'ilarun', 'expression attachment')
+print(t_shopping_list)
