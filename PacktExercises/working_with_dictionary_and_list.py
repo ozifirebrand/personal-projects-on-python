@@ -42,3 +42,20 @@ movie_2['director'] = 'Mike Bamiloye'
 movie_2['rating'] = 9.0
 
 print(movie_2)
+
+employees = [{'name' : 'Mojoyin Oketope',
+              'age' : 10,
+              'department' : 'Project Manager'},
+            {'name' : 'Jerry Ifeanyi',
+              'age' : 12,
+              'department' : 'Backend Developer'},
+             {'name' : 'Gideon Udoh',
+              'age' : 16,
+              'department' : 'Frontend Developer'}
+             ]
+
+print(employees)
+for employee_ in employees:
+    print("Name :", employee_['name'])
+    print("Age :", employee_['age'])
+    print("Department :", employee_['department'])
