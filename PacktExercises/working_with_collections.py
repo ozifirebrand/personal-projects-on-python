@@ -1,3 +1,5 @@
+# todo - A dictionary
+
 country_codes = {'Finland': 'fi',
                 'South Africa': 'za',
                 'Nepal': 'np'}
@@ -5,6 +7,7 @@ country_codes = {'Finland': 'fi',
 for value in country_codes.keys():
     print(value)
 
+# fixme - A list
 
 shopping = ['Apple', 'Eggs', 'Yam', 'Boli', 'Tuwo']
 
@@ -63,6 +66,8 @@ for employee_ in employees:
 
 items = ['omo','bottle water', 'ginger', 'dangote sugar']
 quantity = [1, 12, 15, 2]
+
+# fixme - Mapping items in a list using zip
 
 orders = zip(items, quantity)
 print(list(orders))
