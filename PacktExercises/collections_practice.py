@@ -4,3 +4,4 @@ for item in range(len(company_data)):
     for list_array in range(len(company_data[item])):
         print(company_data[item][list_array], end=' ')
     print()
+
